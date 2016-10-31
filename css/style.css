@@ -1,0 +1,89 @@
+/*Need to sort the css on atributes */
+/*Enter after every element*/
+nav{
+  width: 100%;
+  height: 50px;
+  background: orange;
+  color: black;
+}
+
+main{
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.block{
+  width: calc(50% - 20px);
+  height: 400px;
+  float: left;
+  margin: 10px;
+  text-align: center;
+  background-color: rgba(255, 60, 50, 1);
+  color: #fff;
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block:nth-of-type(1){
+background-image: url("https://placekitten.com/g/300/300");
+}
+.block:nth-of-type(2){
+  background-image: url("https://placekitten.com/g/400/400");
+}
+.block:nth-of-type(3){
+  background-image: url("https://placekitten.com/g/1000/1000");
+}
+.block:nth-of-type(4){
+  background-image: url("https://placekitten.com/g/600/600");
+}
+.block:nth-of-type(5){
+  background-image: url("https://placekitten.com/g/700/700");
+}
+
+.block p{
+  width: 100%;
+  background: rgba(255, 0, 0, 0.5);
+  font-size: 50px;
+  padding: 7px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.mapcontainer{
+  width: 100vw;
+  height: calc(100vh + 100px);
+  color: black;
+  background-color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: -100vh;
+
+  transition: all 1s;
+
+  cursor: pointer;
+}
+
+.mapicon{
+  height: 100px;
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 0;
+
+  background: url(../img/map.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+  background-color: rgba(255, 60, 50, 1);
+
+  transition: all 1s;
+}
+
+.fullscreen {
+  bottom:calc(0vh - 100px);
+}
