@@ -1,16 +1,38 @@
 /*Need to sort the css on atributes */
 /*Enter after every element*/
+body{
+  font-family: sans-serif;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
 nav{
   width: 100%;
-  height: 50px;
+  height: 75px;
   background: orange;
   color: black;
+
+  overflow: scroll;
+
+  font-size: 30px;
+}
+
+nav ul {
+  width: 2000px;
+}
+
+nav ul li {
+  width: 250px;
+  height: 100%;
+  line-height: 75px;
+  text-align: center;
+  float: left;
 }
 
 main{
   width: 100vw;
   height: 100vh;
-  font-family: sans-serif;
 }
 
 .block{
@@ -46,6 +68,7 @@ background-image: url("https://placekitten.com/g/300/300");
 .block p{
   width: 100%;
   background: rgba(255, 0, 0, 0.5);
+  color: white;
   font-size: 50px;
   padding: 7px 0;
   position: absolute;
@@ -63,17 +86,23 @@ background-image: url("https://placekitten.com/g/300/300");
   position: fixed;
   bottom: -100vh;
 
-  transition: all 1s;
+  transition: all .7s;
 
   cursor: pointer;
+}
+
+.mapcontainer iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+
 }
 
 .mapicon{
   height: 100px;
   width: 100%;
   color: white;
-  position: absolute;
-  top: 0;
+  position: relative;
 
   background: url(../img/map.svg);
   background-repeat: no-repeat;
@@ -81,7 +110,7 @@ background-image: url("https://placekitten.com/g/300/300");
   background-size: 100px;
   background-color: rgba(255, 60, 50, 1);
 
-  transition: all 1s;
+  transition: all .7s;
 }
 
 .fullscreen {
