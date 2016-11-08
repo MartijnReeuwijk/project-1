@@ -1,0 +1,72 @@
+section {
+	width: calc(100% - 20px);
+	height: 500px;
+	margin: 10px;
+	background-size: cover;
+	position: relative;
+}
+
+section:nth-of-type(2){
+	background-image: url(http://www.dutchdailynews.com/wp-content/uploads/2014/03/obama-rutte.jpg);
+}
+section:nth-of-type(3){
+	background-image: url(http://static1.persgroep.net/parool/image/6037f268-e752-43e7-a029-99dc2ebb3e1f?width=664&height=374);
+}
+section:nth-of-type(4){
+	background-image: url(https://a.travel-assets.com/findyours-php/viewfinder/images/res60/25000/25400-Amsterdam.jpg);
+}
+section:nth-of-type(5){
+	background-image: url(http://www.hartvannederland.nl/wp-content/uploads/2015/06/4568583858_142258039d_o-700x394.jpg);
+}
+section:nth-of-type(6){
+	background-image: url(http://4.bp.blogspot.com/-I4x9intvc4c/VMPLgdZ-XMI/AAAAAAAARNg/F1BiKaQ1w-8/s1600/IMG_3526.JPG);
+}
+
+.title {
+	width: 100%;
+	height: 75px;
+	background-color: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	bottom: 0px;
+}
+
+.title p {
+	font-size: 40px;
+	line-height: 75px;
+	margin: 0 20px;
+	float: left;
+}
+
+.title p:nth-of-type(2) {
+	float: right;
+}
+
+.mapicon {
+	width: 60px;
+	height: 60px;
+	margin:10px 15px;
+	background-image: url(http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/map-marker-icon.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+
+}
+.mapicon a {
+	width: 60px;
+	height: 60px;
+}
+.print {
+	width: 60px;
+	height: 60px;
+	padding: 10px;
+	background-image: url(http://downloadicons.net/sites/default/files/print-icon-61550.png);
+	background-size: cover;
+	background-color:white;
+	border-radius: 50%;
+	position: fixed;
+	background-repeat: no-repeat;
+	top: 110px;
+	right: 10px;
+	bottom: 0;
+	z-index: 99999;
+}

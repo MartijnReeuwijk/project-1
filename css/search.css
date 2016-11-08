@@ -1,0 +1,78 @@
+.search {
+	width: 100%;
+	height: 75px;
+	margin-bottom: 10px;
+}
+
+.search input {
+	width: calc(100% - 20px);
+	height: 100%;
+	font-size: 35px;
+}
+
+.search input[type=text] {
+	padding-left: 20px;
+}
+
+.select {
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	background-image: url("../img/check.png");
+	background-size: cover;
+
+	display: none;
+}
+.display {
+	display: block;
+}
+
+section {
+	width: 100%;
+	height: 170px;
+}
+
+section p {
+	font-size: 43px;
+	line-height: 170px;
+	float: left;
+}
+
+.image-logo {
+	width: 160px;
+	height: 160px;
+	float: left;
+	margin: 5px 10px;
+	background-size: cover;
+	background-image: center;
+}
+
+section:nth-of-type(2) .image-logo{
+	background-image: url(http://s.numrush.nl/wp-content/uploads/2014/03/www.noordz.nl-Dagtocht-Rijksmuseum-inclusief-grachtenrondvaart-LEZERSREIS_dagtocht-Rijksmuseum_28032013-31.jpg);
+}
+section:nth-of-type(3) .image-logo{
+	background-image: url(http://images.adsttc.com/media/images/55e6/f619/e58e/ce03/1300/0374/medium_jpg/PORTADA_06_VanGoghMuseum_EntranceBuilding_HansvanHeeswijkArchitects_photo_RonaldTilleman.jpg?1441199623);
+}
+section:nth-of-type(4) .image-logo{
+	background-image: url(https://www.onlinegalerij.nl/wp-content/uploads/2015/05/stedelijkmuseum.jpeg);
+}
+section:nth-of-type(5) .image-logo{
+	background-image: url(https://www.onlinegalerij.nl/wp-content/uploads/2015/05/stedelijkmuseum.jpeg);
+}
+section:nth-of-type(6) .image-logo{
+	background-image: url(https://www.onlinegalerij.nl/wp-content/uploads/2015/05/stedelijkmuseum.jpeg);
+}
+
+.upload {
+	width: 100%;
+	height: 100px;
+
+	position: fixed;
+	bottom: 0;
+	background-color: rgba(255, 60, 50, 1);
+	background-image: url("../img/upload.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+
+}

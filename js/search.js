@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     var filters = [],
-    gridItem = $('.grid-item');
+    gridItem = $('main');
 
     // Function for filtering unique items
     function onlyUnique(value, index, self) {
