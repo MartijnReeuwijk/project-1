@@ -33,9 +33,10 @@ section {
 }
 
 section p {
-	font-size: 43px;
+	font-size: 50px;
 	line-height: 170px;
 	float: left;
+	margin-left: 20px;
 }
 
 .image-logo {
@@ -57,11 +58,12 @@ section:nth-of-type(4) .image-logo{
 	background-image: url(https://www.onlinegalerij.nl/wp-content/uploads/2015/05/stedelijkmuseum.jpeg);
 }
 section:nth-of-type(5) .image-logo{
-	background-image: url(https://www.onlinegalerij.nl/wp-content/uploads/2015/05/stedelijkmuseum.jpeg);
+	background-image: url(https://at5.s3-eu-west-1.amazonaws.com/data/cache/2/basedata/pf_image/2012.12/uploaded_61d4b7653b3733a8ec5f0be4a57009b1d2bbe7c2-4b9f6f0a.jpg);
 }
 section:nth-of-type(6) .image-logo{
-	background-image: url(https://www.onlinegalerij.nl/wp-content/uploads/2015/05/stedelijkmuseum.jpeg);
+	background-image: url(http://images.friendlyrentals.com/FR_imgs/blog/PrImg_2687.jpg);
 }
+
 
 .upload {
 	width: 100%;
