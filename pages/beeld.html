@@ -1,53 +1,130 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
 
-		<link rel="stylesheet" href="../css/reset.css" media="screen" title="no title">
-		<link rel="stylesheet" href="../css/search.css" media="screen" title="no title">
+	<link rel="stylesheet" href="../css/reset.css" media="screen" title="no title">
+	<link rel="stylesheet" href="../css/search.css" media="screen" title="no title">
 
-		<!-- menu -->
-		<link rel="stylesheet" href="../css/menu.css" media="screen" title="no title">
+	<!-- menu -->
+	<link rel="stylesheet" href="../css/menu.css" media="screen" title="no title">
 
-		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-		<script type="text/javascript" src="../js/button.js"></script>
-		<title>Beeld</title>
-	</head>
-	<body>
-		<main>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="../js/show.js" type="text/javascript">
 
-			<nav>
-			  <ul>
+	</script>
+	<title>statues</title>
+</head>
+<body>
+	<main>
+
+		<nav>
+			<ul>
 				<li><a href="../index.html">Home</a></li>
 				<li><a href="./upload.html">Upload</a></li>
 				<li><a href="./museum.html">Museum</a></li>
 				<li><a href="./beeld.html">Statue's</a></li>
-				<li><a href="./boek.html">Going out</a></li>
+				<li><a href="./uitgaan.html">Going out</a></li>
 				<li><a href="./boek.html">My album</a></li>
-			  </ul>
-			</nav>
+			</ul>
+		</nav>
 
-			<section class="search">
-				<input type="text" name="name"  placeholder="Where do you want to go?">
-			</section>
+		<section class="search">
+			<input type="text" name="name"  placeholder="Where do you want to go?">
+		</section>
 
-			<section>
-			<div class="image-logo"></div>
-			<p>Tijdelijk moet nog content</p>
-			</section>
+		<section>
+			<div class="image-logo"><img src="http://mikestravelguide.com/wp-content/uploads/2013/08/Rembrandtplein-Amsterdam.jpg" alt="Rembrandtplein" width="100%" height="auto" /></div>
+			<p>Rembrands plein</p>
+		</section>
 
-			<section>
-			<div class="image-logo"></div>
-			<p>Goghmuseum</p>
-			</section>
+		<section>
+			<div class="image-logo"><img src="https://smukkecirsten.files.wordpress.com/2014/02/statue-af-joos-van-den-vondel-i-vondelpark-copy.jpg" alt="Joost van den vondel" width="100%" height="auto" /></div>
+			<p>Joost van den vondel</p>
+		</section>
 
-			<section>
-			<div class="image-logo"></div>
-			<p>Stedelijk</p>
-			</section>
+		<section>
+			<div class="image-logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Amsterdam32.JPG/800px-Amsterdam32.JPG" alt="Multatuli" width="100%" height="auto"  /></div>
+			<p>Multatuli</p>
+		</section>
 
 
-		</main>
+<!-- Hoe doe ik dit toevoegen met javascript ? -->
+<!-- de overlay is nu premade  -->
+		<section class="overlay" id="eerste">
+			<button class="exit" type="button" name="button"></button>
+			<div>
+				<div>
+					<img src="http://mikestravelguide.com/wp-content/uploads/2013/08/Rembrandtplein-Amsterdam.jpg" alt="Rembrandtplein" />
+				</div>
+				<article>
+					<h1>Rembrandt Square</h1>
+					<p>Rembrandt Square dates from 1655 and was formerly called Butter Market. From near and far came farmers with butter, cheese, milk and chicken here to bring their wares.</p>
+					<p>Middle of the square stood the Regulierspoort. As the city grew, the port lost its meaning. That's why he was taken in 1668 to use as Waaggebouw. As the pounds were weighed cheese and butter for the market.</p>
+					<p>The Butter Market in September changed every year in a festival grounds, it was fair. In the evening went cozy lightly.</p>
 
-	</body>
+				</article>
+				<section>
+					<ul>
+						<a href=""><li></li></a>
+						<a href="https://www.google.nl/maps/place/Rembrandtplein,+Amsterdam/@52.366293,4.8949459,17z/data=!3m1!4b1!4m5!3m4!1s0x47c60995659d426b:0x397e117a44ba0983!8m2!3d52.366293!4d4.8971346" target="_blank"><li></li></a>
+						<a href="http://rembrandtplein.com/" target="_blank"><li></li></a>
+					</ul>
+				</section>
+			</div>
+		</section>
+
+		<section class="overlay" id="tweede">
+			<button class="exit" type="button" name="button"></button>
+			<div>
+				<div>
+
+					<img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/f4/8f/95/joost-van-den-vondel.jpg" alt="joost van den vondel" />
+
+				</div>
+				<article>
+					<h1>Joost van den vondel</h1>
+					<p>Joost van den Vondel was a Dutch poet, writer and playwright. He is considered the most prominent Dutch poet and playwright of the 17th century. His plays are the ones from that period that are still most frequently performed, and his epic Joannes de Boetgezant (1662), on the life of John the Baptist, has been called the greatest Dutch epic.</p>
+					<p>Performances of his theatre pieces occurred regularly until the 1960s. The most visible was the annual performance, on New Year's Day from 1637 to 1968, of Gijsbrecht van Aemstel.</p>
+				</article>
+				<section>
+					<ul>
+						<a href=""><li></li></a>
+						<a href="https://www.google.nl/maps/place/Statue+Of+Joost+Van+Den+Vondel/@52.3600162,4.8718089,17z/data=!3m1!4b1!4m5!3m4!1s0x47c609e47bb10a37:0x4bb27f1553b25da6!8m2!3d52.3600162!4d4.8739976" target="_blank"><li></li></a>
+						<a href="https://nl.wikipedia.org/wiki/Joost_van_den_Vondel" target="_blank"><li></li></a>
+					</ul>
+				</section>
+			</div>
+		</section>
+
+		<section class="overlay" id="derde">
+			<button class="exit" type="button" name="button"></button>
+			<div>
+				<div>
+
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Amsterdam32.JPG/800px-Amsterdam32.JPG" alt="Multatuli" />
+
+				</div>
+				<article>
+					<h1>Multatuli</h1>
+					<p>Eduard Douwes Dekker, better known by his pen name Multatuli, was a Dutch writer famous for his satirical novel Max Havelaar (1860), which denounced the abuses of colonialism in the Dutch East Indies .</p>
+					<p>Douwes Dekker was born in Amsterdam. His father was a ship's captain and intended his son for a career in trade. This humdrum prospect disgusted Douwes Dekker and in 1838 he obtained a post as a civil servant on the island of Java.</p>
+				</article>
+
+				<section>
+					<ul>
+						<a href=""><li></li></a>
+						<a href="https://www.google.nl/maps/place/Standbeeld+van+Multatuli,+1015+Amsterdam/@52.3746284,4.8872014,17z/data=!3m1!4b1!4m5!3m4!1s0x47c609c681c0760b:0xacfa7ca5c4f7c0a!8m2!3d52.3746284!4d4.8893901" target="_blank"><li></li></a>
+						<a href="https://en.wikipedia.org/wiki/Multatuli" target="_blank"><li></li></a>
+					</ul>
+				</section>
+			</div>
+		</section>
+
+
+
+
+	</main>
+
+</body>
 </html>

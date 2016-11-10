@@ -1,10 +1,132 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>uitgaan</title>
-	</head>
-	<body>
+<head>
+	<meta charset="utf-8">
 
-	</body>
+	<link rel="stylesheet" href="../css/reset.css" media="screen" title="no title">
+	<link rel="stylesheet" href="../css/search.css" media="screen" title="no title">
+
+	<!-- menu -->
+	<link rel="stylesheet" href="../css/menu.css" media="screen" title="no title">
+
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="../js/show.js" type="text/javascript">
+
+	</script>
+	<title>Going out</title>
+</head>
+<body>
+	<main>
+
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="./upload.html">Upload</a></li>
+				<li><a href="./museum.html">Museum</a></li>
+				<li><a href="./beeld.html">Statue's</a></li>
+				<li><a href="./uitgaan.html">Going out</a></li>
+				<li><a href="./boek.html">My album</a></li>
+			</ul>
+		</nav>
+
+		<section class="search">
+			<input type="text" name="name"  placeholder="Where do you want to go?">
+		</section>
+
+		<section>
+			<div class="image-logo"><img src="../img/leidse.png" alt="Leidse plein" width="100%" height="auto" /></div>
+			<p>Leidse plein</p>
+		</section>
+
+		<section>
+			<div class="image-logo"><img src="../img/melk.png" alt="De melkweg" width="100%" height="auto" /></div>
+			<p>De melkweg.</p>
+		</section>
+
+		<section>
+			<div class="image-logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Amsterdam32.JPG/800px-Amsterdam32.JPG" alt="Multatuli" width="100%" height="auto"  /></div>
+			<p>Multatuli</p>
+		</section>
+
+
+<!-- Hoe doe ik dit toevoegen met javascript ? -->
+<!-- de overlay is nu premade  -->
+		<section class="overlay" id="eerste">
+			<button class="exit" type="button" name="button"></button>
+			<div>
+				<div>
+					<img src="http://images.friendlyrentals.com/FR_imgs/blog/PrImg_2687.jpg" alt="Leidse plein" />
+				</div>
+				<article>
+					<h1>Leidse plein</h1>
+					<p>The Leidseplein is a square in the center of Amsterdam in the extension of the Leidsestraat. It borders on the Marnixstraat, Small-Gartmanplantsoen and the canal.</p>
+					<p>The square dates from the construction period of the canal (the Fourth Explanations). Leidseplein is named after the Leidsepoort, which had stood here until 1862 and the beginning of the road to Leiden. The square, like for example the Haarlemmerplein, constructed as "wagon square 'where visitors from out of town could park their carts before they went further into the city.</p>
+
+				</article>
+				<section>
+					<ul>
+						<a href=""><li></li></a>
+						<a href="https://www.google.nl/maps/place/Paradiso/@52.3621509,4.8816008,17z/data=!3m1!4b1!4m5!3m4!1s0x47c609e929b18c29:0x4cb23c46886d082c!8m2!3d52.3621509!4d4.8837895" target="_blank"><li></li></a>
+						<a href="https://www.paradiso.nl/web/English-Agenda.htm" target="_blank"><li></li></a>
+					</ul>
+				</section>
+			</div>
+		</section>
+
+		<section class="overlay" id="tweede">
+			<button class="exit" type="button" name="button"></button>
+			<div>
+				<div>
+
+					<img src="https://www.melkweg.nl/nl/media/images/event_default.jpg" alt="De melkweg" />
+
+				</div>
+				<article>
+					<h1>De melkweg</h1>
+					<p>Melkweg stands for pop culture in the most broad of senses. Each year, hundreds of concerts, club nights, films and music films, theatre performances, expositions and multidisciplinary events together attract more than 400,000 visitors.</p>
+					<p>The venue is located in the only surviving factory building on the Amsterdam canal ring, a former sugar and, later, milk factory. This historical building houses two concert halls, a cinema, a theatre, and an exposition space, which each can be used separately or combined together.</p>
+				</article>
+				<section>
+					<ul>
+						<a href="tel:020-5318181"><li></li></a>
+						<a href="https://www.google.nl/maps?q=de+melkweg+amsterdam&ion=1&espv=2&bav=on.2,or.&bvm=bv.138169073,d.d24&biw=952&bih=899&dpr=1&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjtkviL057QAhXIBsAKHZfvBnMQ_AUIBygC" target="_blank"><li></li></a>
+						<a href="https://www.melkweg.nl/en/" target="_blank"><li></li></a>
+					</ul>
+				</section>
+			</div>
+		</section>
+
+
+
+
+		<section class="overlay" id="derde">
+			<button class="exit" type="button" name="button"></button>
+			<div>
+				<div>
+
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Amsterdam32.JPG/800px-Amsterdam32.JPG" alt="Multatuli" />
+
+				</div>
+				<article>
+					<h1>Multatuli</h1>
+					<p>Eduard Douwes Dekker, better known by his pen name Multatuli, was a Dutch writer famous for his satirical novel Max Havelaar (1860), which denounced the abuses of colonialism in the Dutch East Indies .</p>
+					<p>Douwes Dekker was born in Amsterdam. His father was a ship's captain and intended his son for a career in trade. This humdrum prospect disgusted Douwes Dekker and in 1838 he obtained a post as a civil servant on the island of Java.</p>
+				</article>
+
+				<section>
+					<ul>
+						<a href=""><li></li></a>
+						<a href="https://www.google.nl/maps/place/Standbeeld+van+Multatuli,+1015+Amsterdam/@52.3746284,4.8872014,17z/data=!3m1!4b1!4m5!3m4!1s0x47c609c681c0760b:0xacfa7ca5c4f7c0a!8m2!3d52.3746284!4d4.8893901" target="_blank"><li></li></a>
+						<a href="https://en.wikipedia.org/wiki/Multatuli" target="_blank"><li></li></a>
+					</ul>
+				</section>
+			</div>
+		</section>
+
+
+
+
+	</main>
+
+</body>
 </html>

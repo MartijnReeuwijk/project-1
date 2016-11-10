@@ -38,19 +38,19 @@ main a:nth-of-type(1) div.block{
 }
 /*museum*/
 main a:nth-of-type(2) div.block{
-    background-image: url(https://www.onlinegalerij.nl/wp-content/uploads/2015/05/stedelijkmuseum.jpeg);
+    background-image: url("../img/stedelijkmuseum.png");
 }
 /*statue*/
 main a:nth-of-type(3) div.block{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/78/Amsterdam_-_Rembrandplein_-_Rembrandtmonument_-_RM518357.JPG);
+    background-image: url("../img/rembrand.png");
 }
 /*going out*/
 main a:nth-of-type(4) div.block{
-    background-image: url(http://images.friendlyrentals.com/FR_imgs/blog/PrImg_2687.jpg);
+    background-image: url("../img/leidse.png");
 }
 /*book*/
 main a:nth-of-type(5) div.block{
-    background-image: url(http://fr.seaicons.com/wp-content/uploads/2015/10/Play-Books-icon.png);
+    background-image: url("../img/boek.gif");
 }
 
 .block p{

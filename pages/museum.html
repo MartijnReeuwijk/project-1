@@ -1,53 +1,128 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
 
-		<link rel="stylesheet" href="../css/reset.css" media="screen" title="no title">
-		<link rel="stylesheet" href="../css/search.css" media="screen" title="no title">
+	<link rel="stylesheet" href="../css/reset.css" media="screen" title="no title">
+	<link rel="stylesheet" href="../css/search.css" media="screen" title="no title">
 
-		<!-- menu -->
-		<link rel="stylesheet" href="../css/menu.css" media="screen" title="no title">
+	<!-- menu -->
+	<link rel="stylesheet" href="../css/menu.css" media="screen" title="no title">
 
-		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-		<script type="text/javascript" src="../js/button.js"></script>
-		<title>museum</title>
-	</head>
-	<body>
-		<main>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="../js/show.js" type="text/javascript">
 
-			<nav>
-			  <ul>
+	</script>
+	<title>Museum</title>
+</head>
+<body>
+	<main>
+
+		<nav>
+			<ul>
 				<li><a href="../index.html">Home</a></li>
 				<li><a href="./upload.html">Upload</a></li>
 				<li><a href="./museum.html">Museum</a></li>
 				<li><a href="./beeld.html">Statue's</a></li>
-				<li><a href="./boek.html">Going out</a></li>
+				<li><a href="./uitgaan.html">Going out</a></li>
 				<li><a href="./boek.html">My album</a></li>
-			  </ul>
-			</nav>
+			</ul>
+		</nav>
 
-			<section class="search">
-				<input type="text" name="name"  placeholder="Where do you want to go?">
-			</section>
+		<section class="search">
+			<input type="text" name="name"  placeholder="Where do you want to go?">
+		</section>
 
-			<section>
+		<section>
 			<div class="image-logo"></div>
 			<p>Rijksmuseum</p>
-			</section>
+		</section>
 
-			<section>
+		<section>
 			<div class="image-logo"></div>
 			<p>Goghmuseum</p>
-			</section>
+		</section>
 
-			<section>
+		<section>
 			<div class="image-logo"></div>
 			<p>Stedelijk</p>
-			</section>
+		</section>
 
 
-		</main>
+<!-- Hoe doe ik dit toevoegen met javascript ? -->
+<!-- de overlay is nu premade  -->
+		<section class="overlay" id="eerste">
+			<button class="exit" type="button" name="button"></button>
+			<div>
+				<div>
+					<img src="http://eye-vision.homeip.net/wp-content/gallery/rijksmuseum-2013/07-voorkant-rijksmuseum.jpg" alt="Rijksmuseum" />
+				</div>
+				<article>
+					<h1>Rijksmuseum</h1>
+					<p>The Rijksmuseum is a Dutch national museum dedicated to arts and history in Amsterdam. The museum is located at the Museum Square in the borough Amsterdam South, close to the Van Gogh Museum, the Stedelijk Museum Amsterdam, and the Concertgebouw.</p>
+					<p>The Rijksmuseum was founded in The Hague in 1800 and moved to Amsterdam in 1808, where it was first located in the Royal Palace and later in the Trippenhuis. The current main building was designed by Pierre Cuypers and first opened its doors in 1885.</p>
+				</article>
+				<section>
+					<ul>
+						<a href="tel:06 47024249"><li></li></a>
+						<a href="https://www.google.nl/maps/place/Rijksmuseum/@52.3599976,4.8830301,17z/data=!3m1!4b1!4m5!3m4!1s0x47c609eec1bb16e5:0xd54373ae6a408585!8m2!3d52.3599976!4d4.8852188" target="_blank"><li></li></a>
+						<a href="https://www.rijksmuseum.nl/" target="_blank"><li></li></a>
+					</ul>
+				</section>
+			</div>
+		</section>
 
-	</body>
+		<section class="overlay" id="tweede">
+			<button class="exit" type="button" name="button"></button>
+			<div>
+				<div>
+
+					<img src="http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/vangoghmuseum0915.jpg?itok=Dvc1v73c" alt="Van gogh" />
+
+				</div>
+				<article>
+					<h1>Van Gogh Museum</h1>
+					<p>The Van Gogh Museum is an art museum dedicated to the works of Vincent van Gogh and his contemporaries in Amsterdam in the Netherlands. It is located at the Museum Square in the borough Amsterdam South, close to the Stedelijk Museum, the Rijksmuseum, and the Concertgebouw.</p>
+					<p>The museum opened on 2 June 1973.[1] It is located in buildings designed by Gerrit Rietveld and Kisho Kurokawa. The museum's collection is the largest collection of Van Gogh's paintings and drawings in the world.</p>
+				</article>
+				<section>
+					<ul>
+						<a href="tel:06 47024249"><li></li></a>
+						<a href="https://www.google.nl/maps/place/Van+Gogh+Museum/@52.3597401,4.7473646,11z/data=!4m8!1m2!2m1!1svangogh!3m4!1s0x47c609ef96d35a5f:0xc22828aef97cc51a!8m2!3d52.3584159!4d4.8810756" target="_blank"><li></li></a>
+						<a href="https://www.vangoghmuseum.nl/" target="_blank"><li></li></a>
+					</ul>
+				</section>
+			</div>
+		</section>
+
+		<section class="overlay" id="derde">
+			<button class="exit" type="button" name="button"></button>
+			<div>
+				<div>
+
+					<img src="https://www.onlinegalerij.nl/wp-content/uploads/2015/05/stedelijkmuseum.jpeg" alt="stedelijkmuseum" />
+
+				</div>
+				<article>
+					<h1>Stedelijk Museum</h1>
+					<p>The Stedelijk Museum Amsterdam, colloquially known as the Stedelijk, is a museum for modern art, contemporary art, and design located in Amsterdam, Netherlands. The 19th century building was designed by Adriaan Willem Weissman and the 21st century wing with the current entrance was designed by Benthem Crouwel Architects. </p>
+					<p>It is located at the Museum Square in the borough Amsterdam South,[2] where it is close to the Van Gogh Museum, the Rijksmuseum, and the Concertgebouw.</p>
+				</article>
+
+				<section>
+					<ul>
+						<a href="tel:06 47024249"><li></li></a>
+						<a href="https://www.google.nl/maps/place/Stedelijk+Museum+Amsterdam/@52.3580111,4.8775667,17z/data=!3m1!4b1!4m5!3m4!1s0x47c609e567e9302b:0xec3c9aad1ccadbea!8m2!3d52.3580111!4d4.8797554" target="_blank"><li></li></a>
+						<a href="http://www.stedelijk.nl/" target="_blank"><li></li></a>
+					</ul>
+				</section>
+			</div>
+		</section>
+
+
+
+
+	</main>
+
+</body>
 </html>
