@@ -73,7 +73,7 @@ main a:nth-of-type(5) div.block{
     text-align: center;
     position: fixed;
     bottom: -100vh;
-
+    z-index: 1;
     transition: all .7s;
 
     cursor: pointer;
@@ -99,6 +99,7 @@ main a:nth-of-type(5) div.block{
     background-color: rgba(255, 60, 50, 1);
 
     transition: all .7s;
+    z-index: 999;
 }
 
 .fullscreen {
