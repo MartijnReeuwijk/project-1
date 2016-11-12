@@ -1,0 +1,108 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/grey.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inputholder {
+  width: 65%;
+  height: 400px;
+  background-color: rgba(255, 60, 50, 1);
+  padding: 30px;
+  border-radius: 20px;
+
+display: table;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.inputholder h2 {
+  width: 400px;
+  color: white;
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 20px 0px 45px 0px;
+  font-size: 40px;
+}
+
+.inputcenter input[type="submit"] {
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+  background-color: transparent;
+  border: solid white 3px;
+  border-radius: 5px;
+
+  transition: 0.3s ease all;
+  -moz-transition: 0.3s ease all;
+  -webkit-transition: 0.3s ease all;
+
+}
+
+.inputcenter input[type="submit"]:active{
+  color: #00B236;
+  background-color: white;
+
+  transition: 0.3s ease all;
+  -moz-transition: 0.3s ease all;
+  -webkit-transition: 0.3s ease all;
+}
+
+/* basic stylings ------------------------------------------ */
+.group {
+  position: relative;
+  margin-bottom: 55px;
+  text-align:  center;
+}
+
+input {
+  font-size: 30px;
+  padding: 10px 0px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  text-indent: 15px;
+  border-bottom: 1px solid #757575;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* LABEL ======================================= */
+label {
+  color: #999;
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: normal;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+
+  /*invalid on the extensions why?*/
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+/*https: //css-tricks.com/almanac/selectors/v/valid/ idk why w3c gives invalid */
+input:focus ~ label,input:valid ~ label {
+  top: -35px;
+  font-size: 30px;
+  color: white;
+  background-color:  transparent;
+}
+
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width: 50%;
+}
