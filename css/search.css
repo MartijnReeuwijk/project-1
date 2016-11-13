@@ -4,6 +4,7 @@ h1 {
 	text-align: center;
 	padding: 25px 0;
 }
+
 .search {
 	width: 100%;
 	height: 90px;
@@ -11,8 +12,8 @@ h1 {
 	border-bottom: solid rgba(255, 60, 50, 1)5px;
 	padding-bottom: 5px;
 	position: relative;
-
 }
+
 .search span {
 	position: absolute;
 	background-image: url(https://yt3.ggpht.com/-EozPsPuQRnA/AAAAAAAAAAI/AAAAAAAAAAA/gwjEwoIyLME/s900-c-k-no-mo-rj-c0xffffff/photo.jpg);
@@ -22,6 +23,7 @@ h1 {
 	width: 75px;
 	height: 75px;
 }
+
 .search input {
 	width: calc(100% - 20px);
 	height: 100%;
@@ -64,7 +66,12 @@ section p {
 	float: left;
 	margin: 5px 10px;
 	background-size: cover;
-	background-image: center;
+	background-position:center;
+}
+
+.image-logo img {
+	width: 100%;
+	height: auto;
 }
 
 section:nth-of-type(2) .image-logo{
@@ -84,10 +91,7 @@ section:nth-of-type(6) .image-logo{
 }
 
 
-
 /*Hier is de overlay voor de geselecterde museum*/
-
-
 
 .exit {
 	width: 70px;
@@ -104,6 +108,7 @@ section:nth-of-type(6) .image-logo{
 	overflow: hidden;
 	outline:none;
 }
+
 .overlay {
 	width: 100%;
 	height: auto;
@@ -127,6 +132,7 @@ section:nth-of-type(6) .image-logo{
 	height: auto;
 	margin: 10px auto;
 }
+
 .overlay div > div > img {
 	width: 100%;
 	height: auto;
@@ -135,17 +141,19 @@ section:nth-of-type(6) .image-logo{
 	float: left;
 	padding: 15px 0px;
 	background: white;
-
 }
+
 .overlay article h1 {
 	font-size: 60px;
 	font-weight: bold;
 	margin:0 0 25px 15px;
 }
+
 .overlay article p {
 	font-size: 20px;
 	line-height: normal;
 }
+
 .overlay section {
 	height: 250px;
 	margin: 20px auto;
@@ -154,30 +162,52 @@ section:nth-of-type(6) .image-logo{
 
 	padding: 15px 0px;
 	background: white;
-
 }
+
 .overlay section ul {
 	width: 100%;
 	height: 100%;
 }
+
 .overlay section ul li {
 	width: calc(33% - 10px);
 	height: calc(100% - 10px);
 	margin: 0 5px;
 	float: left;
+}
+
+.overlay section ul li a {
+	height: 100%;
+	display: block;
+
 	background-image: url("../img/phone.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
+
+	position: relative;
 }
-.overlay section ul a:nth-of-type(2) li{
+
+.overlay section ul li a p {
+width: 100%;
+
+margin: auto;
+position: absolute;
+bottom: -25px;
+
+color: rgba(255, 60, 50, 1);
+line-height: normal;
+text-align: center;
+}
+
+.overlay section ul li:nth-of-type(2) a {
 	background-image: url("../img/map.svg");
-
 }
-.overlay section ul a:nth-of-type(3) li{
+
+.overlay section ul li:nth-of-type(3) a {
 	background-image: url("../img/web.png");
-
 }
+
 .upload {
 	width: 100%;
 	height: 100px;
@@ -189,7 +219,11 @@ section:nth-of-type(6) .image-logo{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
+}
 
+.upload a {
+	display: block;
+	height: 100%;
 }
 
 .display {
