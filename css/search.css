@@ -154,6 +154,10 @@ section:nth-of-type(6) .image-logo{
 	line-height: normal;
 }
 
+.overlay article p a {
+color: rgba(255, 60, 50, 1);
+}
+
 .overlay section {
 	height: 250px;
 	margin: 20px auto;
